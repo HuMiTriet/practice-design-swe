@@ -1,9 +1,9 @@
 package com.practice;
 
-import com.practice.creational.factory.ClientFactory;
+import com.practice.creational.builder.ClientBuilder;
 
 public class App {
   public static void main(String[] args) {
-    ClientFactory.execute();
+    ClientBuilder.execute();
   }
 }
