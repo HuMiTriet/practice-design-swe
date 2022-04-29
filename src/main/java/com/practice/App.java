@@ -1,9 +1,9 @@
 package com.practice;
 
-import com.practice.creational.singleton.ClientSingleton;
+import com.practice.creational.prototype.ClientPrototype;
 
 public class App {
   public static void main(String[] args) {
-    ClientSingleton.execute();
+    ClientPrototype.execute();
   }
 }
