@@ -1,9 +1,9 @@
 package com.practice;
 
-import com.practice.creational.prototype.ClientPrototype;
+import com.practice.structural.adapter.ClientAdapter;
 
 public class App {
   public static void main(String[] args) {
-    ClientPrototype.execute();
+    ClientAdapter.execute();
   }
 }
