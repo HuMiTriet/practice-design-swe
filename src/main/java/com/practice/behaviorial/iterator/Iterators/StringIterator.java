@@ -3,6 +3,7 @@ package com.practice.behaviorial.iterator.Iterators;
 import com.practice.behaviorial.iterator.IterableCollections.StringArray;
 
 public class StringIterator implements Iterator {
+
   private StringArray stringArray;
 
   int index = 0;
