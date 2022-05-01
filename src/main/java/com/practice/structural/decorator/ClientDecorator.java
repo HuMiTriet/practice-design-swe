@@ -20,13 +20,13 @@ public class ClientDecorator {
 
     System.out.println("The total price is: " + thinCheeseSalami.getCost());
 
-    Addons thickCheeseSalami = new Salami(
+    Food thickCheeseSalami = new Salami(
         new Cheese(
             new ThickBase()));
 
     thickCheeseSalami.describe();
 
-    System.out.println("The total prive is: " + thickCheeseSalami.getCost());
+    System.out.println("The total price is: " + thickCheeseSalami.getCost());
   }
 
 }
